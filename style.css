@@ -1,17 +1,19 @@
 header{
+
     background-color: blueviolet; /*cor de fundo*/
     color: ghostwhite; /*cor do texto*/
 }
 
 main{
-background-color: rgb(179, 179, 248);
-color: black;
+
+  background-color: rgb(179, 179, 248);/*cor de fundo do texto principal*/
+color: black;/*cor da fonte*/
 text-align:center ;
-max-width: 800px;
-margin: 0 auto;
+max-width: 800px;/*alinha o tx ao centro*/
+margin: 0 auto;/*margens*/
 }
 
 footer{
-background-color: rgb(241, 2, 241);
-color: black;
+background-color: rgb(241, 2, 241);/*cor de fundo do texto rodape*/
+color: black;/*cor da fonte*/
 }
