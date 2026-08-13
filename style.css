@@ -38,6 +38,6 @@ img{
   width: 80px;/*largura*/
   height: 80px;/*altura*/
 }
-div p {
+.artigo-autor {
   font-weight: bold;
 }
