@@ -16,9 +16,9 @@ color: black;/*cor da fonte*/
 text-align:center ;/*fonte no centro*/
 max-width: 800px;/*maxima largura*/
 margin: 0 auto;/*margens*/
-display: flex;/*habilita o uso de flex box*/
-flex-direction: column;/*orienta os elementos na horizontal na ordem 1,2,3*/
 padding: 16px/*espacamento interno*/;
+display: flex;/*habilita o uso de flex box*/
+flex-direction: row;/*orienta os elementos na horizontal na ordem 1,2,3*/
 border: 5px solid black/*borda*/
 }
 
