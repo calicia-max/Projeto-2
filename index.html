@@ -34,14 +34,14 @@
 
  </body>
  <script>
-    const botao=document.querySelector("button");//cria uma variavel chamada botao selecionando a tag "button"
-    botao.addEventListener("click", botaoClicado);//verifica se o botao foi clicado
-
-    function botaoClicado(){//cria uma funcao
-        console.log("fui clicado");//mostra se o botao foi 
-        let texto=document.querySelector("span");//cria uma variavel chamada "texto" selecionando a teg span
-        texto.textContent++;//muda o valor do texto adicionando uma unidade
-
+  const botao=document.querySelector("button");// cria uma variável chamada botão selecionando a tag "button"
+    botoes.forEach(function(botão){
+    botao.addEventListener("click", botaoClicado);//verifica se o botão foi clicado
+    function botaoClicado(){// cria uma função
+      console.log("fui clicado");// mostra se o botão foi clicado
+      let texto=document.querySelector("span");//cria uma  variavel chamada "texto" selecionando a tagb span
+      texto.textContent++; //muda o valor do texto adicionando de uma unidade 
     }
+})
  </script>
 </html>
